@@ -53,3 +53,14 @@ section {
 section h2 {
   font-size: 50px;
 }
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url(/images/bg-img.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
